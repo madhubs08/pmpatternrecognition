@@ -1,0 +1,10 @@
+[
+    {
+        "ID": 0,
+        "Name": "MyGroup",
+        "Pattern": [
+			"register request",
+			"examine casually"
+			]
+			}
+]

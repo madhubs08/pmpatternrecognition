@@ -1,0 +1,17 @@
+[
+    {
+        "ID": 5,
+        "Name": "Grup5",
+        "Pattern": [
+			"check ticket",
+            "decide"
+        ]
+    },
+	{
+        "ID": 0,
+        "Name": "MyGroup",
+        "Pattern": [
+            "decide"
+        ]
+    }	
+]

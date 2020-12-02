@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- XES version 1.0 -->
+<!-- Created by Fluxicon Nitro (http://fluxicon.com/nitro/ -->
+<!-- (c) 2010 Fluxicon Process Laboratories / http://fluxicon.com/ -->
+<log xes.version="1.0" xmlns="http://code.deckfour.org/xes" xes.creator="Fluxicon Nitro">
+	<extension name="Concept" prefix="concept" uri="http://code.deckfour.org/xes/concept.xesext"/>
+	<extension name="Time" prefix="time" uri="http://code.deckfour.org/xes/time.xesext"/>
+	<extension name="Organizational" prefix="org" uri="http://code.deckfour.org/xes/org.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="name"/>
+	</global>
+	<global scope="event">
+		<string key="concept:name" value="name"/>
+		<date key="time:timestamp" value="2011-04-13T14:02:31.199+02:00"/>
+		<string key="Activity" value="string"/>
+	</global>
+	<classifier name="Activity" keys="Activity"/>
+	<classifier name="activity classifier" keys="Activity"/>
+	<string key="creator" value="Fluxicon Nitro"/>
+	<trace>
+		<string key="concept:name" value="!"/>
+		<string key="creator" value="Fluxicon Nitro"/>
+		<event>
+			<string key="concept:name" value="send invoice"/>
+			<date key="time:timestamp" value="2010-12-30T14:52:00.000+01:00"/>
+			<string key="Activity" value="send invoice"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shut the case"/>
+			<date key="time:timestamp" value="2010-12-30T14:54:00.000+01:00"/>
+			<string key="Activity" value="shut the case"/>
+		</event>
+		<event>
+			<string key="concept:name" value="deliver the package"/>
+			<date key="time:timestamp" value="2010-12-30T15:55:00.000+01:00"/>
+			<string key="Activity" value="deliver the package"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3"/>
+		<string key="creator" value="Fluxicon Nitro"/>
+		<event>
+			<string key="concept:name" value="send invoice"/>
+			<date key="time:timestamp" value="2010-12-30T16:32:00.000+01:00"/>
+			<string key="Activity" value="send invoice"/>
+		</event>
+		<event>
+			<string key="concept:name" value="shut the case"/>
+			<date key="time:timestamp" value="2010-12-30T16:40:00.000+01:00"/>
+			<string key="Activity" value="shut the case"/>
+		</event>
+		<event>
+			<string key="concept:name" value="deliver the package"/>
+			<date key="time:timestamp" value="2010-12-30T16:42:00.000+01:00"/>
+			<string key="Activity" value="deliver the package"/>
+		</event>
+		<event>
+			<string key="concept:name" value="conservation"/>
+			<date key="time:timestamp" value="2010-12-30T16:45:00.000+01:00"/>
+			<string key="Activity" value="conservation"/>
+		</event>
+		<event>
+			<string key="concept:name" value="investigation the case"/>
+			<date key="time:timestamp" value="2010-12-30T16:50:00.000+01:00"/>
+			<string key="Activity" value="investigation the case"/>
+		</event>
+		<event>
+			<string key="concept:name" value="deliver the package"/>
+			<date key="time:timestamp" value="2010-12-30T16:52:00.000+01:00"/>
+			<string key="Activity" value="deliver the package"/>
+		</event>
+		<event>
+			<string key="concept:name" value="conservation"/>
+			<date key="time:timestamp" value="2010-12-30T17:00:00.000+01:00"/>
+			<string key="Activity" value="conservation"/>
+		</event>
+		<event>
+			<string key="concept:name" value="investigation the case"/>
+			<date key="time:timestamp" value="2010-12-31T09:30:00.000+01:00"/>
+			<string key="Activity" value="investigation the case"/>
+		</event>
+		<event>
+			<string key="concept:name" value="deliver the package"/>
+			<date key="time:timestamp" value="2010-12-31T14:40:00.000+01:00"/>
+			<string key="Activity" value="deliver the package"/>
+		</event>
+		<event>
+			<string key="concept:name" value="conservation"/>
+			<date key="time:timestamp" value="2010-12-31T14:44:00.000+01:00"/>
+			<string key="Activity" value="conservation"/>
+		</event>
+		<event>
+			<string key="concept:name" value="investigation the case"/>
+			<date key="time:timestamp" value="2010-12-31T14:45:00.000+01:00"/>
+			<string key="Activity" value="investigation the case"/>
+		</event>
+		<event>
+			<string key="concept:name" value="deliver the package"/>
+			<date key="time:timestamp" value="2010-12-31T14:46:00.000+01:00"/>
+			<string key="Activity" value="deliver the package"/>
+		</event>
+		<event>
+			<string key="concept:name" value="deliver the package"/>
+			<date key="time:timestamp" value="2010-12-31T14:49:00.000+01:00"/>
+			<string key="Activity" value="deliver the package"/>
+		</event>
+		<event>
+			<string key="concept:name" value="drop the case"/>
+			<date key="time:timestamp" value="2010-12-31T14:55:00.000+01:00"/>
+			<string key="Activity" value="drop the case"/>
+		</event>
+		<event>
+			<string key="concept:name" value="revisit the customer"/>
+			<date key="time:timestamp" value="2010-12-31T15:00:00.000+01:00"/>
+			<string key="Activity" value="revisit the customer"/>
+		</event>
+		<event>
+			<string key="concept:name" value="investigation the case"/>
+			<date key="time:timestamp" value="2010-12-31T15:22:00.000+01:00"/>
+			<string key="Activity" value="investigation the case"/>
+		</event>
+		<event>
+			<string key="concept:name" value="deliver the package"/>
+			<date key="time:timestamp" value="2010-12-31T15:25:00.000+01:00"/>
+			<string key="Activity" value="deliver the package"/>
+		</event>
+	</trace>
+</log>
